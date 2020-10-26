@@ -1,7 +1,7 @@
 configdb:
   name: apollo-configdb
   # apolloconfigdb host
-  host: mysql-apollo.db
+  host: mysql-apollo.im
   port: 3306
   dbName: ApolloConfigDB
   # apolloconfigdb user name
@@ -39,9 +39,9 @@ configService:
   config:
     # spring profiles to activate
     profiles: "github,kubernetes"
-    # override apollo.config-service.url: config service url to be accessed by apollo-client 
+    # override apollo.config-service.url: config service url to be accessed by apollo-client
     configServiceUrlOverride: ""
-    # override apollo.admin-service.url: admin service url to be accessed by apollo-portal 
+    # override apollo.admin-service.url: admin service url to be accessed by apollo-portal
     adminServiceUrlOverride: ""
   # environment variables passed to the container, e.g. JAVA_OPTS
   env: {}

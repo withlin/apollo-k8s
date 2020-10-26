@@ -63,4 +63,5 @@ portaldb:
     enabled: false
     fullNameOverride: ""
     port: 3306
-    type: ClusterIP
+    nodePort: 30001
+    type: NodePort

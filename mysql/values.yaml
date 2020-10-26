@@ -549,7 +549,8 @@ metrics:
   ## MySQL Prometheus exporter service parameters
   ##
   service:
-    type: ClusterIP
+    type: NodePort
+    nodePort: 33066
     port: 9104
     annotations:
       prometheus.io/scrape: "true"

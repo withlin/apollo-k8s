@@ -308,7 +308,7 @@ CREATE TABLE `Authorities` (
 INSERT INTO `ServerConfig` (`Key`, `Value`, `Comment`)
 VALUES
     ('apollo.portal.envs', 'dev', '可支持的环境列表'),
-    ('organizations', '[{\"orgId\":\"business\",\"orgName\":\"业务研发部\"}, '部门列表'),
+    ('organizations', '[{\"orgId\":\"business\",\"orgName\":\"业务研发部\"}]', '部门列表'),
     ('superAdmin', 'apollo', 'Portal超级管理员'),
     ('api.readTimeout', '10000', 'http接口read timeout'),
     ('consumer.token.salt', 'someSalt', 'consumer token salt'),
